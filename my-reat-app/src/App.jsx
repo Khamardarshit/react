@@ -7,11 +7,11 @@ function App() {
 
   return (
     <>
-      {/* <welcome /> */}
-      {/* <welcoome /> */}
+      <welcome />
+      <welcoome />
       <student studentname="darshit"/>
     </>
   )
 }
 
-export default welcome;
+export default student;
