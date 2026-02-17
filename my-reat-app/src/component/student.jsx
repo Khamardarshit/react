@@ -1,7 +1,9 @@
-function student(props){
-    return(
-    <h1>student-name{props.name}</h1>
-    )
+function student({ name, age }) {
+  return (
+    <h1>
+      Hello {name}, you are {age} years old.
+    </h1>
+  );
 }
 
 export default student;

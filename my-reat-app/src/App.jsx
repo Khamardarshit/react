@@ -9,7 +9,9 @@ function App() {
     <>
       <welcome />
       <welcoome />
-      <student studentname="darshit"/>
+
+      <student name="Darshit" age={21}/>
+
     </>
   )
 }
